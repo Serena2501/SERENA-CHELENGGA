@@ -1,0 +1,297 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #dcf6cf;
+  color: #333;
+}
+
+header {
+  background: #71f95f;
+  color: #fff;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header img {
+  width: 90px;
+  height: 100;
+  margin-left: 20px;
+  float: left;
+}
+/* Navigation Styles */
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #4CAF50;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  display: block;
+  transition: background 0.3s;
+}
+
+nav ul li a:hover {
+  background: #2c3e50;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.content{
+  padding: 16px;
+}
+/* Centered Image and Text */
+centre {
+  text-align: center;
+  padding: 5rem 0 2rem;
+}
+
+centre img {
+  display: block;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+}
+
+centre p {
+  margin: 0.5rem 0;
+}
+
+/* Section Styles */
+section {
+  padding: 2rem 1rem;
+  margin: 1rem 0;
+  background: #b5f1b3;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Professional Summary */
+.professional-summary {
+  text-align: center;
+}
+
+.professional-summary h1 {
+  margin-bottom: 1rem;
+}
+
+.professional-summary p {
+  margin-bottom: 1rem;
+}
+
+video {
+  display: block;
+  margin: 1rem auto;
+}
+
+/* About Me Section */
+.about-me {
+  text-align: left;
+}
+
+.about-me h1 {
+  margin-bottom: 1rem;
+}
+
+.about-me p {
+  margin: 0.5rem 0;
+}
+
+/* Education Background */
+.education-background h1 {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.education-background img {
+  display: block left;
+  margin: 1rem auto;
+}
+
+.education-background p {
+  text-align:  center center;
+  margin: 1rem 0;
+}
+
+/* Experiences Section */
+.experiences h1 {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.experiences p {
+  margin-bottom: 1rem;
+}
+
+/*software skills*/
+
+box-sizing:border-box
+/*container for skill bars*/
+.container{
+  width:100%;
+  background-color: #ccc;
+}
+/*.softwareskills Section*/
+.softwareskills h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.softwareskills {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.capcut {width:80% ;background-color: aquamarine;
+}
+.canva{width:90% ;background-color: green;
+}
+.vscode {width:50% ; background-color: chartreuse;}
+.microsoft {width: 90%; background-color: #71f95f;}
+
+.softwareskilss-background img {
+  display: block left;
+  margin: 1rem auto;
+}
+/* Achievement Section */
+.achievement h1 {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.achievement p {
+  text-align: left;
+  margin: 0.5rem 0;
+}
+
+.certificate {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+.responsive{
+  padding: 0 6px;
+  float: left;
+  width: 50%;
+}
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: center;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Contact Section */
+.contact {
+  text-align: center;
+}
+
+.contact form {
+  display: inline-block;
+  text-align: left;
+  max-width: 500px;
+  width: 100%;
+}
+
+.contact input, .contact textarea {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: inherit;
+}
+
+.contact input[type="submit"] {
+  background: #2c3e50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: background 0.3s;
+}
+
+.contact input[type="submit"]:hover {
+  background: #34495e;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #4CAF50;
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+
+
+footer p {
+  margin: 0;
+}
